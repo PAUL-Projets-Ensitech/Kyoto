@@ -18,15 +18,15 @@ nav {
     position: absolute;
     top: 10px;
     right: 15px;
+    width: 50px;
     z-index: 25;
     display: none;
 }
 
 .liste-nav {
+    background: linear-gradient(to bottom, #333, #626262);
     height: 100%;
     width: 100%;
- 
- 
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -36,7 +36,6 @@ nav {
 .item-nav {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .item-nav a {
@@ -76,5 +75,14 @@ nav {
         height: auto;
         padding-top: 70px;
         display: none;
+    }
+
+    .liste-nav.active {
+        display: block;
+    }
+
+    .item-nav {
+        height: 70px;
+        justify-content: center;
     }
 }
