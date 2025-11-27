@@ -97,4 +97,51 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 1px dotted #777;
+    padding-top: 1px;
+}
+
+.logo-kyoto {
+    width: 180px;
+    display: block;
+    border-radius: 50%;
+    margin: 180px auto 0;
+}
+
+.accueil h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #F1F1F1;
+    text-shadow: 0 0 10px #000;
+    margin: 10px;
+    font-family: "Merienda", "Sans-serif";
+}
+
+.sous-titre {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+    color: #F1F1F1;
+    text-shadow: 0 0 10px #000;
+    font-family: "Nunito Sans", "Sans-serif";
+}
+
+.accueil a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #FF6F61;
+    color: #F1F1F1;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 900px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.accueil a:hover {
+    background-color: #E65B50;
 }
