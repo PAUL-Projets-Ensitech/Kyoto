@@ -25,6 +25,8 @@ nav {
 .liste-nav {
     height: 100%;
     width: 100%;
+ 
+ 
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -34,6 +36,7 @@ nav {
 .item-nav {
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
 }
 
 .item-nav a {
@@ -42,4 +45,36 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 20px;
+}
+
+/* ANIMATION DANS LA BARRE DE NAVIGATION */
+
+.item-nav a::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    height: 2px;
+    background: #F1F1F1;
+    transition: width 0.2s ease-in-out;
+}
+
+.item-nav a:hover::after {
+    width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+    .logo-menu {
+        display: block;
+    }
+
+    .liste-nav {
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        padding-top: 70px;
+        display: none;
+    }
 }
