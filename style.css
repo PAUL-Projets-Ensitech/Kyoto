@@ -21,3 +21,12 @@ nav {
     z-index: 25;
     display: none;
 }
+
+.liste-nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    z-index: 20;
+}
