@@ -146,3 +146,8 @@ nav {
     background: rgb(177, 0, 36);
     color: #FFF;
 }
+
+.section-asymetrique {
+    display: grid;
+    grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
+}
