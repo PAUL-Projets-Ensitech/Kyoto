@@ -163,7 +163,7 @@ nav {
     padding-bottom: 20px;
 }
 
-.block-1, img-grid-1 {
+.block-1, .img-grid-1 {
     grid-area: 2 / 2 / 3 / 3;
 }
 
@@ -203,4 +203,67 @@ nav {
 .block-texte-left {
     width: 50%;
     height: 100%;
+}
+
+.block-texte-left h3 {
+    white-space: nowrap;
+    font-size: 35px;
+    margin: 35px 15px;
+}
+
+.block-texte-left p {
+    font-size: 18px;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+.block button {
+    border-radius: 900px;
+    background: crimson;
+    display: block;
+    color: #F1F1F1;
+    outline: none;
+    padding: 20px 35px;
+    border: none;
+    border: 1px solid #333;
+    margin: 35px auto;
+    cursor: pointer;
+}
+
+.img-grid-2 {
+    right: 20px;
+    top: 130px;
+}
+
+.block-right {
+    right: -300px;
+}
+
+.block-texte-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.block-right h3 {
+    position: relative;
+    font-size: 35px;
+    margin: 30px 15px;
+}
+
+
+.block-right p {
+    line-height: 40px;
+    padding: 15px;
+}
+
+.ligne-gauche {
+    grid-area: 1 / 2 / -1 / 3;
+    border-left: 1px solid #333;
+}
+
+.ligne-droite {
+    grid-area: 1 / 3 / -1 / 4;
+    border-left: 1px solid #333;
 }
