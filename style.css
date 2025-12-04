@@ -127,21 +127,22 @@ nav {
     font-family: "Nunito Sans", "Sans-serif";
 }
 
-.accueil a {
-    display: block;
-    width: 200px;
-    margin: 0 auto;
-    padding: 10px;
+.btn-accueil {
     text-align: center;
-    background-color: #FF6F61;
+    font-size: 22px;
+    background: crimson;
+    display: block;
     color: #F1F1F1;
     text-decoration: none;
-    font-size: 20px;
+    width: 200px;
+    line-height: 70px;
+    margin: 30px auto 0;
+    border: 1px solid #333;
     border-radius: 900px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease;
+    transition: all 0.2 ease-in-out;
 }
 
-.accueil a:hover {
-    background-color: #E65B50;
+.btn-accueil:hover {
+    background: rgb(177, 0, 36);
+    color: #FFF;
 }
