@@ -195,3 +195,12 @@ nav {
     left: 20px;
     top: 130px;
 }
+
+.block-left {
+    left: -300px;
+}
+
+.block-texte-left {
+    width: 50%;
+    height: 100%;
+}
