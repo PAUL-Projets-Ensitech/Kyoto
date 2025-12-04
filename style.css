@@ -151,3 +151,47 @@ nav {
     display: grid;
     grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
 }
+
+.section-asymetrique h2 {
+    grid-area: 1 / 1 / 2 / -1;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: #333;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.block-1, img-grid-1 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.block-2, .img-grid-2 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.block-3, .img-grid-3 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.block {
+    position: relative;
+    height: 750px;
+    background: #333;
+    color: #F1F1F1;
+    border-radius: 2px;
+    margin-bottom: 250px;
+}
+
+.img-grid {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    object-fit: cover;
+}
+
+.img-grid-1, .img-grid-3 {
+    left: 20px;
+    top: 130px;
+}
