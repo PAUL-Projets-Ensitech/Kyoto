@@ -167,7 +167,7 @@ nav {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-.block-2, .img-grid-2 {
+.block-right, .img-grid-2 {
     grid-area: 3 / 2 / 4 / 3;
 }
 
@@ -201,8 +201,8 @@ nav {
 }
 
 .block-texte-left {
-    width: 50%;
     height: 100%;
+    width: 50%;
 }
 
 .block-texte-left h3 {
@@ -212,13 +212,12 @@ nav {
 }
 
 .block-texte-left p {
-    font-size: 18px;
     margin: 15px;
-    line-height: 1.6;
+    line-height: 40px;
 }
 
 .block button {
-    border-radius: 900px;
+    border-radius: 99999px;
     background: crimson;
     display: block;
     color: #F1F1F1;
@@ -231,7 +230,7 @@ nav {
 }
 
 .img-grid-2 {
-    right: 20px;
+    left: 100px;
     top: 130px;
 }
 
@@ -240,20 +239,21 @@ nav {
 }
 
 .block-texte-right {
-    width: 50%;
-    height: 100%;
     position: absolute;
     right: 0;
+    height: 100%;
+    width: 50%;
 }
 
-.block-right h3 {
+.block-texte-right h3 {
     position: relative;
     font-size: 35px;
-    margin: 30px 15px;
+    margin: 35px 2px;
+    white-space: nowrap;
 }
 
 
-.block-right p {
+.block-texte-right p {
     line-height: 40px;
     padding: 15px;
 }
