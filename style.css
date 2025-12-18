@@ -558,7 +558,7 @@ textarea {
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .form-groupe .button-sub:hover {
     color: #fff;
